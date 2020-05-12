@@ -1,0 +1,5 @@
+---
+key_file: "/home/ansible-abc/.ssh/id_rsa"
+git_url: "git@gitlab.com:abc/com.org.civimobileapi.git"
+git_repo_path: "/data/civi-dr-event-agenda/www/sites/default/files/civicrm/ext/com.org.civimobileapi/"
+git_url_orig: "https://gitlab.com/abc/com.org.civimobileapi.git"

@@ -1,0 +1,12 @@
+---
+
+# docker.yml
+
+- name: Deploy Docker
+  hosts: "d01"
+  become: true
+
+  roles:
+    - role: "docker"
+      tags: ["docker"]
+
