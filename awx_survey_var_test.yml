@@ -1,0 +1,15 @@
+# AWX Survey test
+---
+
+- hosts: localhost
+  connection: local
+  gather_facts: False
+
+  vars:
+   name: "{{ your_name }}"
+    
+  tasks:
+
+    - name: Debug survey
+      debug:
+        msg: "My name is {{ name }}"
