@@ -6,7 +6,7 @@
   gather_facts: False
 
   vars:
-   name: "{{ your_name }}"
+   name: ""
     
   tasks:
 
